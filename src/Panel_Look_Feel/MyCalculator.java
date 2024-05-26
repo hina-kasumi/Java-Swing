@@ -55,7 +55,7 @@ public class MyCalculator extends JFrame {
             //UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 
 
-            UIManager.setLookAndFeel((UIManager.getSystemLookAndFeelClassName())); //giao diện người dùng phù hợp theo hệ điều hành
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName()); //giao diện người dùng phù hợp theo hệ điều hành
             new MyCalculator();
         } catch (Exception ex){
             ex.printStackTrace();
