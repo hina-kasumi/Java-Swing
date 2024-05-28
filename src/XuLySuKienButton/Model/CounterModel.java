@@ -1,4 +1,4 @@
-package XuLySuKien.Model;
+package XuLySuKienButton.Model;
 
 public class CounterModel {
     private int value;

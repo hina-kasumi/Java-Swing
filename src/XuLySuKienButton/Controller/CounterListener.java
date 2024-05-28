@@ -1,6 +1,6 @@
-package XuLySuKien.Controller;
+package XuLySuKienButton.Controller;
 
-import XuLySuKien.View.CounterView;
+import XuLySuKienButton.View.CounterView;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

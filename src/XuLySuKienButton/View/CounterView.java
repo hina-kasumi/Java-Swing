@@ -1,7 +1,7 @@
-package XuLySuKien.View;
+package XuLySuKienButton.View;
 
-import XuLySuKien.Controller.CounterListener;
-import XuLySuKien.Model.CounterModel;
+import XuLySuKienButton.Controller.CounterListener;
+import XuLySuKienButton.Model.CounterModel;
 
 import javax.swing.*;
 import java.awt.*;

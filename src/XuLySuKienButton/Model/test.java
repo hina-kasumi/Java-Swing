@@ -1,6 +1,6 @@
-package XuLySuKien.Model;
+package XuLySuKienButton.Model;
 
-import XuLySuKien.View.CounterView;
+import XuLySuKienButton.View.CounterView;
 
 public class test {
     public static void main(String[] args) {
