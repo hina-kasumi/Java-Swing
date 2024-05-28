@@ -2,7 +2,7 @@ package JScrollPane_VaHienThiThanhCuon.Model;
 
 public class TimKiemModel {
     private String vanBan;
-    private String tuKhoa;
+    private String tuKhoa ="";
     private String ketQua;
 
     public TimKiemModel(){
