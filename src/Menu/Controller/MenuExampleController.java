@@ -25,6 +25,8 @@ public class MenuExampleController implements ActionListener {
             System.exit(0); // thoát khỏi chương trình
         } else if (button.equals("Welcome")) {
             this.menuExampleView.setTextJLabel("bạn đã click vào JMenuItem Welcome");
+        } else if (button.equals("New")) {
+            this.menuExampleView.setTextJLabel("bạn đã click vào JMenuItem New");
         }
     }
 }

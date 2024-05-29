@@ -24,15 +24,18 @@ public class MenuExampleView extends JFrame {
         JMenu jMenu_file = new JMenu("File");
 
         //tạo các lựa chọn con trong menu
+        JMenuItem jMenuItem_new = new JMenuItem("New");
         JMenuItem jMenuItem_open = new JMenuItem("Open");
         JMenuItem jMenuItem_exit = new JMenuItem("Exit");
 
         //thêm các JMenuItem vào JMenu
+        jMenu_file.add(jMenuItem_new);
         jMenu_file.add(jMenuItem_open);
         jMenu_file.addSeparator(); // thêm cái gạch ngang vào
         jMenu_file.add(jMenuItem_exit);
 
         //gắn chức năng cho các JMenuItem
+        jMenuItem_new.addActionListener(menuExampleController);
         jMenuItem_exit.addActionListener(menuExampleController);
         jMenuItem_open.addActionListener(menuExampleController);
 
